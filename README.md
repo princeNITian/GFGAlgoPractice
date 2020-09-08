@@ -12,3 +12,10 @@ while algorithm is not 'Strong':
 >Happy Coding..!! &#x1F49B;&#x1F499;
 
 >Shaping into new direction..&#129409;
+
+***
+## Topics to be covered:
+- Dynamic Programming
+- Greedy Algorithm
+- Divide and Conquer
+- Backtracing
