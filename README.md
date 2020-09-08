@@ -8,6 +8,7 @@ while algorithm is not 'Strong':
     keep practicing..
 
 ```
+---
 >Happy Coding..!! &#x1F49B;&#x1F499;
 
 >Shaping into new direction..&#129409;
