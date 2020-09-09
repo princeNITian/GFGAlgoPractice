@@ -1,3 +1,19 @@
+# Using extra space 
+# Time-Complexity = O(n) , Space-Complexity = O(n)
+def frequency(arr,n):
+
+    hash = [0]*n
+
+    i = 0
+    while i<n:
+        hash[arr[i]-1] += 1
+        i += 1
+    
+    for i in range(n):
+        print(i+1,'->',hash[i])
+
+
+
 # By making elements negative.
 # Time-Complexity = O(n) , Space-Complexity = O(1)
 def frequency1(arr,n):
@@ -19,7 +35,7 @@ def frequency1(arr,n):
             arr[i] = 0
             i += 1
 
-    print('Frequencies are as follows: ')
+    # print('Frequencies are as follows: ')
     for i in range(0,n):
         print(i+1,'->',abs(arr[i]))
 
@@ -41,6 +57,9 @@ def frequency2(arr,n):
 if __name__=="__main__":
     n = 7
     arr = [4,5,2,1,3,4,7]
+    # print('frequency method invoked: ')
+    # frequency(arr,n)
+    print('frequency1 method invoked: ')
     frequency1(arr,n)
-    # print('Frequency2 method invoked: ')
+    # print('frequency2 method invoked: ')
     # frequency2(arr,n)
