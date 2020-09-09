@@ -13,7 +13,7 @@
 
         - You are given a query word Q and you are required to compute match_count(Q).
 
-        -  Sample Input 
+        -  **Sample Input**
         >
 
             5 3
@@ -27,7 +27,7 @@
             ma?
             ?a?
             ??n
-        - Sample Output
+        - **Sample Output**
         >
             2
             2
