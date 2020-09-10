@@ -45,6 +45,8 @@
             ['i','f','l','v']<br>
         ]
         <br>
-            words = ["oath","pea","eat","rain"]<br>
-        > Output:  ["eat","oath"]
+            words = ["oath","pea","eat","rain"]
+            
+        > **Ouput**
+        - Output:  ["eat","oath"]
     - Next  &#8265;
