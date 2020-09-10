@@ -33,3 +33,17 @@
             2
             4
             2
+
+    - [Trie Problem](trie2.py)
+        - Given a 2D board and a list of words from the dictionary, find all words in the board, Each word must be constructed from letters of sequentially adjacent cell, wherer "adjacent" cellls are those horizonatlly or vertically neighboring.
+        The same letter cell may not be used more than once in a word.
+        > **Input**
+        - board = [<br>
+            ['o','a','a','n'],<br>
+            ['e','t','a','e'],<br>
+            ['i','h','k','r'],<br>
+            ['i','f','l','v']<br>
+        ]
+        <br>
+        words = ["oath","pea","eat","rain"]
+        > Output:  ["eat","oath"]
