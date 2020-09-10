@@ -1,7 +1,7 @@
 import sys
 
 
-# Time Complexity = max( O(M*N) , O(Q*M) ) = O(M*N), Space Complexity = O(M*N)
+# Time Complexity = max( O(M*N) , O(Q*N) ) = O(M*N), Space Complexity = O(M*N)
 def match_count(words,queries):
     
     res = []
@@ -10,17 +10,17 @@ def match_count(words,queries):
     
     # Time complexity for this loop is O(M*N)
     
-    for i in range(len(words[0])): #O(M)
-        for x in words:			   #O(N)
+    for i in range(len(words[0])): #O(N)
+        for x in words:			   #O(M)
             if lookup[i].get(x[i]):#O(1)
                 lookup[i][x[i]] += 1 
             else:
                 lookup[i][x[i]] = 1 
     
-    # Time complexity for this loop is O(Q*M)
+    # Time complexity for this loop is O(Q*N)
     for q in queries:				#O(Q)
         count = sys.maxsize
-        for j in range(len(q)):		#O(M)
+        for j in range(len(q)):		#O(N)
             if lookup[j].get(q[j]): #O(1)
                 count = min(count,lookup[j][q[j]])
             else:
